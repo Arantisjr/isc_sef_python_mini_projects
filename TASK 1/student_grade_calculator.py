@@ -9,7 +9,7 @@ def Calc_stud():
     total_marks=sum(stud_mark.values())
     print("Total marks of student:", total_marks)
     total_possible_marks= 500 #for the 5 subjects
-    stud_percentage=(total_marks/total_possible_marks)*100 + '%'
+    stud_percentage=(total_marks/total_possible_marks)*100 
     print("student percentage:",stud_percentage)
     if stud_percentage<30:
         print("GRADE:E")
