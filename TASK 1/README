@@ -1,0 +1,8 @@
+#INTRO
+ The program is supposed to get  a student name and series of five marks get the total marks,percentage and grade
+ #EXPLANATION
+ .The program starts by creating a function Calc_stud()
+ .it gets the stud name, creating a dictionary to store name of stud and scores
+ .Using the for loop to get the stud marks and storing in the dictionary
+ .using the sum(stud_mark.values()) to sum the values in the container
+ .calculating the percentage of a strud and using if statement to grade students
